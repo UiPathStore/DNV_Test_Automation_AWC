@@ -1,0 +1,80 @@
+{
+  "name": "TestAutomation_DNV",
+  "projectId": "f72dd16f-4901-4de7-a4ab-36b95b660d8f",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[23.12.0-preview]",
+    "UiPath.Testing.Activities": "[23.12.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.10.8]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.12.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "80181a03-1fe6-450b-8e59-e2e17e4b8b2e",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3bbb006c-20ad-4156-9c2b-2f3bf505b7ab",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase_02_Advanced_Search_6.3_DNV.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "12cd8d2c-c173-4140-b528-d0edd6156fcc",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase_01_Create_Item_6.3_DNV.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2c97b33d-773e-452e-bee4-c27f8bc2938b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase_03_AWC_Workflow_Assignee_6.3_DNV.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
